@@ -1,0 +1,286 @@
+header {
+    display: flex;
+    height: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+}
+
+p {
+    color: grey;
+}
+
+h5 {
+    color: grey;
+}
+
+h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header h3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#logo {
+    size: 5rem;
+}
+
+.title{
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#t2 {
+    color: gray;
+}
+
+.navbtns {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+li {
+    display: flex;
+    margin: 0px 8px 0px 8px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 2.7rem
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.section1 {
+    background-color: lightgray;
+    color: rgb(61, 69, 77);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#pic1 {
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+#startbtn {
+    background-color: grey;
+    color: white;
+    width: 30px;
+    padding: 8px 8rem 8px 8rem;
+}
+
+.sp1 {
+    width: 70%;
+    margin: 0px 80px 0px 0px;
+    text-align: left;
+}
+
+
+/* Section 2 -
+Keep Practing */
+
+.section2 {
+    display: inline-flex;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: auto;
+    width: 62.5%;
+    align-items: center;
+    margin-right: 24px;
+    border-left: solid 1px grey;
+}
+
+#pic2 {
+    width: 100%;
+    margin: 32px 24px 32px 24px;
+}
+
+.sectiontwob {
+    margin: 0px 0px 24px 0px;
+}
+
+#practicetxt {
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+#ptp {
+    margin-top: 0px;
+}
+
+
+.pt2smallsect {
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 40%;
+    justify-content: center;
+}
+
+.sbsct {
+    display: inline-flex;
+}
+
+.smallpics {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+    padding-left: 16px;
+}
+
+.sct2btn {
+    color: blue !important;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* Section3 - 
+Start learning */
+
+.section3 {
+    padding: 32px 72px 32px 72px;
+    background-color: lightgray;
+}
+
+#startlearning {
+    text-align: center;
+}
+
+.smallboxesection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.smallbox {
+    width: 30%;
+    background-color: white;
+    padding-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.smallbox h3,h5, p {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.sixpics {
+    height: auto;
+    width: 100%;
+}
+
+/* Section 4 - 
+Thesis Section*/
+
+#thesisheading {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.thesissection {
+    display: inline-flex;
+}
+
+.thesissection h3 {
+    padding-left: 16px;
+}
+
+.vidbox {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: column wrap;
+    flex-basis: auto;
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+video {
+    width: 100%;
+}
+
+.thesisvidtext {
+    align-items: center;
+}
+
+.pt4smallsect {
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 40%;
+    justify-content: center;
+}
+
+.sbsct4 {
+    display: inline-flex;
+    padding: 16px;
+}
+
+.smallpics2 {
+    height: auto;
+    width: 35%;
+}
+
+.smallboxtxt2 {
+    padding: 16px;
+    text-align: left;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 16px 24px 24px 24px;
+    border-top: solid 1px grey;
+}
+
+.footerbtns {
+    float: right;
+    padding-right: 24px;
+    margin-bottom: 72px;
+}
+
+footer p {
+    float: left;
+    padding-left: 24px;
+    margin-bottom: 72px;
+}
+
+footer a {
+    color: grey !important;
+    margin: 8px;
+}
